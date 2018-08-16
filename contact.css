@@ -48,6 +48,10 @@ a.navbar-brand:hover {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  overflow: hidden;
   opacity: 0.95;
   z-index: -100;
 }
@@ -65,7 +69,7 @@ span.box {
   background-color: rgba(4, 12, 14, 1.0);
   color: rgba(164, 151, 142, 1.0);
   padding: 30px;
-  font-size: 30px;
+  font-size: 27px;
   opacity: 0.9;
 }
 
@@ -113,6 +117,8 @@ button.btn-primary:focus, button.btn-primary:active {
   div.jumbotron {
     margin: 0px 65px 65px 65px;
   }
+  .parallax {
+    height: 100% !important;
   * {
     /*CSS transitions*/
     -o-transition-property: none !important;
@@ -142,6 +148,8 @@ button.btn-primary:focus, button.btn-primary:active {
   div.jumbotron {
     margin: 0px 50px 50px 50px;
   }
+  .parallax {
+    height: 100% !important;
   * {
     /*CSS transitions*/
     -o-transition-property: none !important;
@@ -171,6 +179,8 @@ button.btn-primary:focus, button.btn-primary:active {
   div.jumbotron {
     margin: 0px 30px 30px 30px;
   }
+  .parallax {
+    height: 100% !important;
   * {
     /*CSS transitions*/
     -o-transition-property: none !important;

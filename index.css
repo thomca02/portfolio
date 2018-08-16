@@ -48,6 +48,10 @@ a.navbar-brand:hover {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  overflow: hidden;
   opacity: 0.95;
   z-index: -100;
 }
@@ -65,7 +69,7 @@ span.box {
   background-color: rgba(4, 12, 14, 1.0);
   color: rgba(164, 151, 142, 1.0);
   padding: 30px;
-  font-size: 30px;
+  font-size: 27px;
   opacity: 0.9;
 }
 
@@ -126,7 +130,7 @@ a.btn-primary:focus, a.btn-primary:active {
     font-size: 17px;
   }
   div.card {
-    font-size: 85%;
+    font-size: 100%;
     height: 100%;
   }
   div.jumbotron {
@@ -135,10 +139,10 @@ a.btn-primary:focus, a.btn-primary:active {
 
 @media screen and (max-width: 1200px) {
   .description {
-    font-size: 80%;
+    font-size: 90%;
   }
   div.card {
-    font-size: 80%;
+    font-size: 90%;
     height: 90%;
   }
   div.jumbotron {
@@ -146,17 +150,20 @@ a.btn-primary:focus, a.btn-primary:active {
 }
 
 @media screen and (max-width: 950px) {
+  .parallax {
+    height: 100% !important;
+  }
   .description {
-    font-size: 70%;
+    font-size: 80%;
     margin-bottom: 20px;
   }
   div.card {
-    font-size: 70%;
+    font-size: 80%;
     height: 55%;
   }
   div.jumbotron {
     margin: 0px 80px 80px 80px;
-    padding: 40px;
+    padding: 60px;
   }
   * {
     /*CSS transitions*/
@@ -184,17 +191,20 @@ a.btn-primary:focus, a.btn-primary:active {
 }
 
 @media screen and (max-width: 650px) {
+  .parallax {
+    height: 100% !important;
+  }
   .description {
-    font-size: 60%;
+    font-size: 75%;
     margin-bottom: 20px;
   }
   div.card {
-    font-size: 60%;
+    font-size: 75%;
     height: 40%;
   }
   div.jumbotron {
     margin: 0px 30px 30px 30px;
-    padding: 70px;
+    padding: 60px;
   }
   * {
     /*CSS transitions*/
@@ -222,17 +232,20 @@ a.btn-primary:focus, a.btn-primary:active {
 }
 
 @media screen and (max-width: 480px) {
+  .parallax {
+    height: 100% !important;
+  }
   .description {
-    font-size: 50%;
+    font-size: 65%;
     margin-bottom: 20px;
   }
   div.card {
-    font-size: 50%;
+    font-size: 65%;
     height: 30%;
   }
   div.jumbotron {
     margin: 0px 10px 10px 10px;
-    padding: 50px;
+    padding: 40px;
   }
   * {
     /*CSS transitions*/
