@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <title>Corey - Home</title>
+<!--link for css stylesheet-->
+    <link rel="stylesheet" type="text/css" href="home_page.css">
+<!--link for bootstrap css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<!--link for CSS scroll animation-->
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
+  </head>
+<!--start of website design. NO NEED TO EDIT ABOVE THIS!!-->
+  <body>
+<!--navigation bar (hidden unless scroll up)-->
+  <nav id="navigation" class="navbar navbar-dark navbar-expand-md bg-dark navbar-default">
+    <a class="navbar-brand" href="index.html">Corey Thompson</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="justify-content-end collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+<!--parallax background with title-->
+  <div class="parallax">
+    <div data-aos="fade-down"
+         data-aos-duration="1000"
+         data-aos-easing="ease-in-out-back"
+         data-aos-mirror="true"
+         data-aos-once="true"
+         class="caption">
+      <span class="box">Corey Thompson</span>
+    </div>
+  </div>
+<!--jumbotron with my background w/picture-->
+    <div class="background">
+      <div class="jumbotron">
+        <div class="container"><hr>
+          <div class="row align-items-center">
+            <div class="description col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">Welcome to my portfolio site. <a href="portfolio.html">Here</a> you can view my various [big to small] projects that I've been working on since I began my programming adventure. I started my journey during the Spring of 2018 and look forward to many more adventures within the coding world. If you're interested in some of my work and would like to know more about me/my work, feel free to <a href="contact.html">contact</a> me.<hr>Why I chose programming:<br><br>Funny story - my very first interest in programming started by working on a very small project... for my wife's business class in late 2017. She isn't a huge techie person, so she asked me to help. The project she had to do for her class was to build a resume, but in an HTML format. She was frustrated and didn't understand anything that was happening, so with my tech background and love for [anything] technology, I jumped in and assisted her in making the HTML document. Without any prior knowledge in coding, I managed to finish a VERY basic HTML document that had her basic resume information on it in ~3 hours. <br><br> It was then that I decided to switch from being a potential PA student to a coding novice (hope to be a master soon!). My biggest interest is back-end language and server side development, but I enjoy learning the full spectrum. I feel like it never hurts knowing a little about everything!
+            </div>
+            <div class="card no-gutters text-white bg-dark col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"
+            data-aos="fade-left"
+            data-aos-duration="1200"
+            data-aos-easing="ease-in-out-back"
+            data-aos-mirror="true"
+            data-aos-once="true">
+              <a href="https://twitter.com/CoreyThompson__" target="_blank">
+              <img id="portrait" src="/img/portrait.jpg" class="card-img-top" alt="portrait"></a>
+              <div class="card-body">
+                <div class="card-title">Corey Thompson</div>
+                <p class="card-text">Portrait of myself on my wedding day! (Click image for twitter page and button for LinkedIn page)</p>
+                <a href="https://www.linkedin.com/in/corey-thompson-33572b164/" class="btn btn-primary" target="_blank">LinkedIn</a>
+              </div>
+            </div>
+          </div>
+            <hr>
+        </div>
+      </div>
+    </div>
+<!--link for javascript scrolling package-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<!--link for regular javascript sheet-->
+    <script src="/js/home_page.js"></script>
+<!--link for CSS scroll animation-->
+    <script src="/js/AOS_script.js"></script>
+<!--link for bootstrap javascript-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
