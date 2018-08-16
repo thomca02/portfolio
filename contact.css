@@ -5,7 +5,7 @@ width: 100%;
 }
 
 div.background {
-  background-image:  url("/img/background.png");
+  background-image:  url("img/background.png");
   margin: 0;
   padding-top: 50px;
   height: 100%;
@@ -42,7 +42,7 @@ a.navbar-brand:hover {
 }
 
 .parallax {
-  background-image: url("/img/parallax.jpg");
+  background-image: url("img/parallax.jpg");
   min-height: 1000px;
   background-position: center;
   background-attachment: fixed;
