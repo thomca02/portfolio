@@ -51,26 +51,73 @@ a.navbar-brand:hover {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  overflow: hidden;
   opacity: 0.95;
   z-index: -100;
 }
 
 .caption {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 10em;
+  opacity: 0.9;
 }
 
-span.box {
-  background-color: rgba(4, 12, 14, 1.0);
+.caption h1 {
+  padding: 15px;
   color: rgba(164, 151, 142, 1.0);
-  padding: 30px;
-  font-size: 27px;
+  font-size: 50px;
+  border-right: .17em solid rgba(190, 144, 99, 1.0);
+  background-color: rgba(4, 12, 14, 0.70);
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 2.5s steps(25, end), blink-caret 0.5s step-end infinite;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 35%;
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgba(190, 144, 99, 1.0);
+  }
+}
+
+.caption2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 5em;
   opacity: 0.9;
+}
+
+.caption2 h1 {
+  padding: 15px;
+  color: rgba(164, 151, 142, 1.0);
+  font-size: 50px;
+  border-right: .18em solid rgba(190, 144, 99, 1.0);
+  background-color: rgba(4, 12, 14, 0.70);
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing2 2.7s steps(30, end), blink-caret 0.5s step-end infinite;
+  animation-delay: 3.0s;
+}
+
+@keyframes typing2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 32%;
+  }
 }
 
 div.jumbotron {
