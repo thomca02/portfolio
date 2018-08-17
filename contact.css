@@ -44,13 +44,14 @@ a.navbar-brand:hover {
 .parallax {
   background-image: url("img/parallax.jpg");
   min-height: 1000px;
-  background-position: top;
+  background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  overflow: hidden;
   opacity: 0.95;
   z-index: -100;
 }
@@ -116,16 +117,34 @@ button.btn-primary:focus, button.btn-primary:active {
   div.jumbotron {
     margin: 0px 65px 65px 65px;
   }
+  .parallax {
+    height: 100% !important;
+  }
+  #navigation {
+    top: 0;
+  }
 }
 
 @media screen and (max-width: 650px) {
   div.jumbotron {
     margin: 0px 50px 50px 50px;
   }
+  .parallax {
+    height: 100% !important;
+  }
+  #navigation {
+    top: 0;
+  }
 }
 
 @media screen and (max-width: 480px) {
   div.jumbotron {
     margin: 0px 30px 30px 30px;
+  }
+  .parallax {
+    height: 100% !important;
+  }
+  #navigation {
+    top: 0;
   }
 }

@@ -44,13 +44,14 @@ a.navbar-brand:hover {
 .parallax {
   background-image: url("img/parallax.jpg");
   min-height: 1000px;
-  background-position: top;
+  background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  overflow: hidden;
   opacity: 0.95;
   z-index: -100;
 }
@@ -134,7 +135,6 @@ a.btn-primary:focus, a.btn-primary:active {
   }
   div.jumbotron {
     margin: 0px 100px 100px 100px;
-  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -147,10 +147,12 @@ a.btn-primary:focus, a.btn-primary:active {
   }
   div.jumbotron {
     margin: 0px 75px 75px 75px;
-  }
 }
 
 @media screen and (max-width: 950px) {
+  .parallax {
+    height: 100% !important;
+  }
   .description {
     font-size: 80%;
     margin-bottom: 20px;
@@ -163,9 +165,15 @@ a.btn-primary:focus, a.btn-primary:active {
     margin: 0px 80px 80px 80px;
     padding: 60px;
   }
+  #navigation {
+    top: 0;
+  }
 }
 
 @media screen and (max-width: 650px) {
+  .parallax {
+    height: 100% !important;
+  }
   .description {
     font-size: 75%;
     margin-bottom: 20px;
@@ -178,9 +186,15 @@ a.btn-primary:focus, a.btn-primary:active {
     margin: 0px 30px 30px 30px;
     padding: 60px;
   }
+  #navigation {
+    top: 0;
+  }
 }
 
 @media screen and (max-width: 480px) {
+  .parallax {
+    height: 100% !important;
+  }
   .description {
     font-size: 65%;
     margin-bottom: 20px;
@@ -192,5 +206,8 @@ a.btn-primary:focus, a.btn-primary:active {
   div.jumbotron {
     margin: 0px 10px 10px 10px;
     padding: 40px;
+  }
+  #navigation {
+    top: 0;
   }
 }
