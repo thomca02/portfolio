@@ -10,3 +10,11 @@ function scrollFunction() {
       document.getElementById("navigation").style.top = "-150px"; /* sets the style.top to -200px (hides it), if above 1250 px */
   }
 }
+
+window.onload = function() {
+  setTimeout(func1, 3000);
+};
+
+function func1() {
+  document.getElementById("hidden").className = "show";
+}

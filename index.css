@@ -63,7 +63,7 @@ a.navbar-brand:hover {
 }
 
 .caption h1 {
-  padding: 15px;
+  padding: 0.4em;
   color: rgba(164, 151, 142, 1.0);
   font-size: 50px;
   border-right: .17em solid rgba(190, 144, 99, 1.0);
@@ -99,16 +99,20 @@ a.navbar-brand:hover {
   opacity: 0.9;
 }
 
-.caption2 h1 {
+.show {
   padding: 15px;
   color: rgba(164, 151, 142, 1.0);
-  font-size: 50px;
+  font-size: 30px;
   border-right: .18em solid rgba(190, 144, 99, 1.0);
   background-color: rgba(4, 12, 14, 0.70);
   white-space: nowrap;
   margin: 0 auto;
-  animation: typing2 2.7s steps(30, end), blink-caret 0.5s step-end infinite;
-  animation-delay: 3.0s;
+  animation: typing2 2.0s steps(25, end), blink-caret2 0.5s step-end infinite;
+  overflow: hidden;
+}
+
+.hide {
+  display: none;
 }
 
 @keyframes typing2 {
@@ -116,7 +120,16 @@ a.navbar-brand:hover {
     width: 0;
   }
   to {
-    width: 32%;
+    width: 20%;
+  }
+}
+
+@keyframes blink-caret2 {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgba(190, 144, 99, 1.0);
   }
 }
 
