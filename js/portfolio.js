@@ -1,5 +1,7 @@
 /* when scrolled down to description part of site, navbar will show and stay */
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {
+  scrollFunction()
+};
 
 function scrollFunction() {
   if ((document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) || (document.screen.width < 650)) {

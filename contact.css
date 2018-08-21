@@ -5,12 +5,12 @@ width: 100%;
 }
 
 div.background {
-  background-image:  url("img/background.png");
+  background-image: url("img/background.png");
   margin: 0;
   padding-top: 50px;
   height: 100%;
   background-size: cover;
-  border-top: 5px solid black;
+  border-top: 3px solid black;
 }
 
 #navigation {
@@ -24,6 +24,9 @@ div.background {
   width: 100%;
   z-index: 100;
   transition: top 0.5s;
+  -webkit-transition: top 0.5s;
+  -moz-transition: top 0.5s;
+  -o-transtion: top 0.5s;
   top: -200px;
   background-color: rgba(4, 12, 14, 0.95) !important;
 }
