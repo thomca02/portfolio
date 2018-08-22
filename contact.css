@@ -19,7 +19,7 @@ div.background {
   padding-left: 50px;
   padding-right: 50px;
   margin-bottom: 10px;
-  box-shadow: 0px 4px 0px rgba(164, 151, 142, 1.0);
+  box-shadow: 0px 4px 0px rgba(190, 144, 99, 0.8);
   position: fixed;
   width: 100%;
   z-index: 100;
@@ -55,29 +55,107 @@ a.navbar-brand:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   overflow: hidden;
-  opacity: 0.95;
+  opacity: 0.92;
   z-index: -100;
 }
 
 .caption {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 45%;
-  width: 100%;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 22em;
+  opacity: 1.0;
 }
 
-span.box {
-  background-color: rgba(4, 12, 14, 1.0);
-  color: rgba(164, 151, 142, 1.0);
-  padding: 30px;
-  font-size: 27px;
-  opacity: 0.9;
+.caption_text {
+  padding: 0.2em;
+  color: rgba(190, 144, 99, 1.0);
+  font-size: 50px;
+  border-right: .15em solid rgba(190, 144, 99, 1.0);
+  background-color: rgba(4, 12, 14, 0.95);
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 2.5s steps(25,end), blink-caret 0.7s step-end infinite;
+  -webkit-animation: typing 2.5s steps(25,end), blink-caret 0.7s step-end infinite;
+  -moz-animation: typing 2.5s steps(25,end), blink-caret 0.7s step-end infinite;
+  -o-animation: typing 2.5s steps(25,end), blink-caret 0.7s step-end infinite;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 6.5em;
+  }
+}
+
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 6.5em;
+  }
+}
+
+@-o-keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 6.5em;
+  }
+}
+
+@-moz-keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 6.5em;
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgba(164, 151, 142, 1.0);
+  }
+}
+
+@-o-keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgba(164, 151, 142, 1.0);
+  }
+}
+
+@-moz-keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgba(164, 151, 142, 1.0);
+  }
+}
+
+@-webkit-keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgba(164, 151, 142, 1.0);
+  }
 }
 
 div.jumbotron {
   margin: 0px 100px 100px 100px;
+  padding: 3em;
   background-color: rgba(4, 12, 14, 0.70);
   opacity: 1.1;
   color: rgba(164, 151, 142, 1.0);
@@ -104,15 +182,47 @@ button.btn-primary:focus, button.btn-primary:active {
   border-color: rgba(164, 151, 142, 1.0) !important;
 }
 
+div hr {
+  height: 3px;
+  background-color: rgba(190, 144, 99, 0.8);
+}
+
+h1.title {
+  font-size: 40px;
+  color: rgba(190, 144, 99, 0.8);
+  margin-bottom: 1.5em;
+}
+
+.description {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 3em;
+}
+
 @media screen and (max-width: 3000px) {
   div.jumbotron {
     margin: 0px 100px 100px 100px;
+  }
+  h1.title {
+    font-size: 190%;
+  }
+  .description {
+    font-size: 190%;
   }
 }
 
 @media screen and (max-width: 1200px) {
   div.jumbotron {
     margin: 0px 75px 75px 75px;
+  }
+  h1.title {
+    font-size: 160%;
+  }
+  .description {
+    font-size: 160%;
+  }
+  .caption_text {
+    font-size: 45px;
   }
 }
 
@@ -123,8 +233,14 @@ button.btn-primary:focus, button.btn-primary:active {
   .parallax {
     height: 100% !important;
   }
-  #navigation {
-    top: 0;
+  h1.title {
+    font-size: 150%;
+  }
+  .description {
+    font-size: 140%;
+  }
+  .caption_text {
+    font-size: 42px;
   }
 }
 
@@ -135,8 +251,14 @@ button.btn-primary:focus, button.btn-primary:active {
   .parallax {
     height: 100% !important;
   }
-  #navigation {
-    top: 0;
+  h1.title {
+    font-size: 140%;
+  }
+  .description {
+    font-size: 130%;
+  }
+  .caption_text {
+    font-size: 35px;
   }
 }
 
@@ -147,7 +269,13 @@ button.btn-primary:focus, button.btn-primary:active {
   .parallax {
     height: 100% !important;
   }
-  #navigation {
-    top: 0;
+  h1.title {
+    font-size: 130%;
+  }
+  .description {
+    font-size: 130%;
+  }
+  .caption_text {
+    font-size: 28px;
   }
 }

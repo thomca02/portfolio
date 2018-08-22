@@ -35,21 +35,18 @@
   </nav>
 <!--parallax background with title-->
   <div class="parallax">
-    <div data-aos="fade-down"
-         data-aos-duration="1000"
-         data-aos-easing="ease-in-out-back"
-         data-aos-mirror="true"
-         data-aos-once="true"
-         class="caption">
-      <span class="box">Contact Page</span>
+    <div class="caption">
+      <span class="caption_text">Contact Page</span>
     </div>
   </div>
 <!--jumbotron with my background w/picture-->
     <div class="background">
       <div class="jumbotron">
         <div class="container">
+          <hr>
+          <h1 class="title">Contact Form</h1>
           <div class="row">
-            <form method="post" action="contact.php" role="form" id="contact_form">
+            <form class="col-xs-12 col-sm-12 col-md-7 col-lg-6 col-xl-6"  method="post" action="contact.php" role="form" id="contact_form">
               <div class="form-group">
                 <label for="input_email">Email Address</label>
                 <input type="email" class="form-control" aria-describedby="emailHelp" id="input_email" placeholder="email@example.com" required>
@@ -66,6 +63,8 @@
               </div>
               <button type="submit" class="btn btn-primary" value="Submit">Submit</button>
             </form>
+            <div class="description col-xs-12 col-sm-12 col-md-5 col-lg-6 col-xl-6">Thank you for your interest in my portfolio! If you'd like to get to know me more, please ask me about my Curriculum Vitae.
+            </div>
           </div>
         </div>
       </div>
