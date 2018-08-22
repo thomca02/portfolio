@@ -67,14 +67,14 @@ a.navbar-brand:hover {
   padding: 0.2em;
   color: rgba(190, 144, 99, 1.0);
   font-size: 50px;
-  border-right: .15em solid rgba(190, 144, 99, 1.0);
+  border-right: .15em solid rgba(164, 151, 142, 1.0);
   background-color: rgba(4, 12, 14, 0.95);
   white-space: nowrap;
   margin: 0 auto;
-  animation: typing 2.5s steps(25,end), blink-caret 0.7s step-end infinite;
-  -webkit-animation: typing 2.5s steps(25,end), blink-caret 0.7s step-end infinite;
-  -moz-animation: typing 2.5s steps(25,end), blink-caret 0.7s step-end infinite;
-  -o-animation: typing 2.5s steps(25,end), blink-caret 0.7s step-end infinite;
+  animation: typing 2.5s steps(20,end), blink-caret 0.7s step-end infinite;
+  -webkit-animation: typing 2.5s steps(20,end), blink-caret 0.7s step-end infinite;
+  -moz-animation: typing 2.5s steps(20,end), blink-caret 0.7s step-end infinite;
+  -o-animation: typing 2.5s steps(20,end), blink-caret 0.7s step-end infinite;
   overflow: hidden;
 }
 
@@ -83,7 +83,7 @@ a.navbar-brand:hover {
     width: 0;
   }
   to {
-    width: 6.6em;
+    width: 6.8em;
   }
 }
 
@@ -92,7 +92,7 @@ a.navbar-brand:hover {
     width: 0;
   }
   to {
-    width: 6.6em;
+    width: 6.68em;
   }
 }
 
@@ -101,7 +101,7 @@ a.navbar-brand:hover {
     width: 0;
   }
   to {
-    width: 6.6em;
+    width: 6.68em;
   }
 }
 
@@ -110,7 +110,7 @@ a.navbar-brand:hover {
     width: 0;
   }
   to {
-    width: 6.6em;
+    width: 6.68em;
   }
 }
 
@@ -119,7 +119,7 @@ a.navbar-brand:hover {
     border-color: transparent;
   }
   50% {
-    border-color: rgba(4, 12, 14, 1.0);
+    border-color: rgba(164, 151, 142, 1.0);
   }
 }
 
