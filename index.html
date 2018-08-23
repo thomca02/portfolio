@@ -13,7 +13,7 @@
   </head>
 <!--start of website design. NO NEED TO EDIT ABOVE THIS!!-->
   <body>
-<!--navigation bar (hidden unless scroll up)-->
+<!--navigation bar (hidden unless scrolled passed point)-->
   <nav id="navigation" class="navbar navbar-dark navbar-expand-md bg-dark navbar-default">
     <a class="navbar-brand" href="index.html">Corey Thompson</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,15 +42,17 @@
       <span class="flicker">Web Developer</span>
     </div>
   </div>
-<!--jumbotron with my background w/picture-->
+<!--jumbotron with my background and portrait-->
     <div class="background">
       <div class="jumbotron">
         <div class="container">
           <hr>
           <h1 class="title">Introduction</h1>
           <div class="row align-items-center">
+<!--My Background and Description Text-->
             <div class="description col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">Welcome to my portfolio site. <a href="portfolio.html">Here</a> you can view my various [big to small] projects that I've been working on since I began my programming adventure. I started my journey during the Spring of 2018 and look forward to many more adventures within the coding world. If you're interested in some of my work and would like to know more about me/my work, feel free to <a href="contact.html">contact</a> me.<hr>Why I chose programming:<br>Funny story - my very first interest in programming started by working on a very small project... for my wife's business class in late 2017. She isn't a huge techie person, so she asked me to help. The project she had to do for her class was to build a resume, but in an HTML format. She was frustrated and didn't understand anything that was happening, so with my tech background and love for [anything] technology, I jumped in and assisted her in making the HTML document. Without any prior knowledge in coding, I managed to finish a VERY basic HTML document that had her basic resume information on it in ~3 hours.<hr>It was then that I decided to switch from being a potential PA student to a coding novice (hope to be a master soon!). My biggest interest is back-end language and server side development, but I enjoy learning the full spectrum. I feel like it never hurts knowing a little about everything!
             </div>
+<!--Portrait Card with my picture-->
             <div class="card no-gutters text-white bg-dark col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"
             data-aos="fade-left"
             data-aos-duration="1200"
@@ -65,12 +67,102 @@
                 <a href="https://www.linkedin.com/in/corey-thompson-33572b164/" class="btn btn-primary" target="_blank">LinkedIn</a>
               </div>
             </div>
-          </div><hr>
+          </div>
+          <hr>
           <h1 class="title">Skillset/Background</h1>
-          <div class="container">
-            <a href="#" data-container="body" data-toggle="popover" title="HTML Background" data-content="This popup contains my HTML hx" data-placement="right">
-              <img src="img/html_icon.png">
-            </a>
+<!--HTML Background Modal Button-->
+          <div class="row text-center">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+              <a href="#" type="button" data-toggle="modal" data-target="#html_modal"><img src="img/html_icon.png" alt="html example">
+              </a>
+            </div>
+<!--HTML Background Modal -->
+            <div class="modal fade" id="html_modal" tabindex="-1" role="dialog" aria-labelledby="HTML Background" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="HTML_Background">HTML Background</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">This will list my background with HTML.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+<!--CSS Background Modal Button-->
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+              <a href="#" type="button" data-toggle="modal" data-target="#css_modal"><img src="img/css_icon.png" alt="css example">
+              </a>
+            </div>
+<!--CSS Background Modal-->
+            <div class="modal fade" id="css_modal" tabindex="-1" role="dialog" aria-labelledby="CSS Background" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="CSS_Background">CSS Background</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">This will list my background with CSS.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+<!--Bootstrap Background Modal Button-->
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+              <a href="#" type="button" data-toggle="modal" data-target="#bootstrap_modal"><img src="img/bootstrap_icon.png" alt="bootstrap example">
+              </a>
+            </div>
+<!--Bootstrap Background Modal-->
+            <div class="modal fade" id="bootstrap_modal" tabindex="-1" role="dialog" aria-labelledby="Bootstrap Background" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="Bootstrap_Background">Bootstrap Background</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">This will list my background with Bootstrap.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+<!--Javascript Background Modal Button-->
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+              <a href="#" type="button" data-toggle="modal" data-target="#javascript_modal"><img src="img/javascript_icon.png" alt="javascript example">
+              </a>
+            </div>
+<!--Javascript Background Modal-->
+            <div class="modal fade" id="javascript_modal" tabindex="-1" role="dialog" aria-labelledby="JavaScript Background" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="Javascript_Background">Javascript Background</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">This will list my background with JavaScript.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
