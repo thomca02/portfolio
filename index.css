@@ -740,10 +740,13 @@ h1.title2 {
 
 #modal1, #modal2, #modal3, #modal4 {
   margin-bottom: 10px;
-  -webkit-appearance: none;
-  -o-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+}
+
+a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn {
+  -webkit-appearance: none !important;
+  -o-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
 }
 
 @media screen and (max-width: 3000px) {
