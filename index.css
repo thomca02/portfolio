@@ -165,10 +165,10 @@ a.navbar-brand:hover {
 }
 
 .flicker {
-	-webkit-animation: flicker 3.8s linear 2.5s both;
-  -moz-animation: flicker 3.8s linear 2.5s both;
-  -o-animation: flicker 3.8s linear 2.5s both;
-	animation: flicker 3.8s linear 2.5s both;
+	-webkit-animation: flicker 3.8s linear 2.2s both;
+  -moz-animation: flicker 3.8s linear 2.2s both;
+  -o-animation: flicker 3.8s linear 2.2s both;
+	animation: flicker 3.8s linear 2.2s both;
 }
 
 @-webkit-keyframes flicker {
@@ -740,6 +740,11 @@ h1.title2 {
 
 #modal1, #modal2, #modal3, #modal4 {
   margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+#modal1:hover, #modal2:hover, #modal3:hover, #modal4:hover {
+  opacity: 1.0;
 }
 
 a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn {
@@ -747,6 +752,11 @@ a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn {
   -o-appearance: none !important;
   -moz-appearance: none !important;
   appearance: none !important;
+}
+
+.modal_image, .modal_image {
+  border: 6px solid rgba(190, 144, 99, 1.0);
+  border-radius: 5px;
 }
 
 @media screen and (max-width: 3000px) {
