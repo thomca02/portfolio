@@ -299,14 +299,14 @@ a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn, a.modal5_btn {
   div.jumbotron {
     margin: 0px 75px 75px 75px;
   }
-  .caption_text {
-    font-size: 45px;
+  .caption {
+    font-size: 70px;
   }
   h1.title, h1.title2 {
     font-size: 160%;
   }
   .small_caption {
-    font-size: 35px;
+    font-size: 40px;
   }
   .modal_image {
     height: auto;
@@ -327,14 +327,14 @@ a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn, a.modal5_btn {
     margin: 0px 80px 80px 80px;
     padding: 60px;
   }
-  .caption_text {
-    font-size: 42px;
+  .caption {
+    font-size: 65px;
   }
   h1.title, h1.title2 {
     font-size: 150%;
   }
   .small_caption {
-    font-size: 30px;
+    font-size: 35px;
   }
   .modal_image {
     height: auto;
@@ -355,8 +355,8 @@ a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn, a.modal5_btn {
     margin: 0px 30px 30px 30px;
     padding: 60px;
   }
-  .caption_text {
-    font-size: 35px;
+  .caption {
+    font-size: 55px;
   }
   h1.title, h1.title2 {
     font-size: 140%;
@@ -383,14 +383,14 @@ a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn, a.modal5_btn {
     margin: 0px 10px 10px 10px;
     padding: 40px;
   }
-  .caption_text {
-    font-size: 28px;
+  .caption {
+    font-size: 40px;
   }
   h1.title, h1.title2 {
     font-size: 130%;
   }
   .small_caption {
-    font-size: 20px;
+    font-size: 25px;
   }
   .modal_image {
     height: auto;

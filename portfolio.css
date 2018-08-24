@@ -207,8 +207,8 @@ a.btn-primary:focus, a.btn-primary:active {
   div.jumbotron {
     margin: 0px 75px 75px 75px;
   }
-  .caption_text {
-    font-size: 45px;
+  .small_caption {
+    font-size: 70px;
   }
   h1.title {
     font-size: 160%;
@@ -226,8 +226,8 @@ a.btn-primary:focus, a.btn-primary:active {
   .parallax {
     height: 100% !important;
   }
-  .caption_text {
-    font-size: 42px;
+  .small_caption {
+    font-size: 65px;
   }
   h1.title {
     font-size: 150%;
@@ -246,8 +246,8 @@ a.btn-primary:focus, a.btn-primary:active {
   .parallax {
     height: 100% !important;
   }
-  .caption_text {
-    font-size: 35px;
+  .small_caption {
+    font-size: 55px;
   }
   h1.title {
     font-size: 140%;
@@ -266,8 +266,8 @@ a.btn-primary:focus, a.btn-primary:active {
   .parallax {
     height: 100% !important;
   }
-  .caption_text {
-    font-size: 28px;
+  .small_caption {
+    font-size: 40px;
   }
   h1.title {
     font-size: 130%;
