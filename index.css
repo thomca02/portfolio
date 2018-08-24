@@ -62,7 +62,7 @@ a.navbar-brand:hover {
 .caption {
   display: flex;
   justify-content: center;
-  padding-top: 22em;
+  padding-top: 20em;
   opacity: 1.0;
 }
 
@@ -86,7 +86,7 @@ a.navbar-brand:hover {
     width: 0;
   }
   to {
-    width: 8.5em;
+    width: 8.2em;
   }
 }
 
@@ -95,7 +95,7 @@ a.navbar-brand:hover {
     width: 0;
   }
   to {
-    width: 8.5em;
+    width: 8.2em;
   }
 }
 
@@ -104,7 +104,7 @@ a.navbar-brand:hover {
     width: 0;
   }
   to {
-    width: 8.5em;
+    width: 8.2em;
   }
 }
 
@@ -113,7 +113,7 @@ a.navbar-brand:hover {
     width: 0;
   }
   to {
-    width: 8.5em;
+    width: 8.2em;
   }
 }
 
@@ -740,6 +740,10 @@ h1.title2 {
 
 #modal1, #modal2, #modal3, #modal4 {
   margin-bottom: 10px;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 @media screen and (max-width: 3000px) {
