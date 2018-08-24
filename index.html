@@ -36,10 +36,10 @@
 <!--parallax background with title-->
   <div class="parallax">
     <div class="caption">
-      <span class="caption_text">Corey Thompson</span>
+      <span class="pop-up1">Corey Thompson</span>
     </div>
     <div class="small_caption">
-      <span class="flicker">Web Developer</span>
+      <span class="pop-up2">Web Developer</span>
     </div>
   </div>
 <!--jumbotron with my background and portrait-->
@@ -53,7 +53,11 @@
             <div class="description col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">Welcome to my portfolio site. <a href="portfolio.html">Here</a> you can view my various [big to small] projects that I've been working on since I began my programming adventure. I started my journey during the Spring of 2018 and look forward to many more adventures within the coding world. If you're interested in some of my work and would like to know more about me/my work, feel free to <a href="contact.html">contact</a> me.<hr>Why I chose programming:<br>Funny story - my very first interest in programming started by working on a very small project... for my wife's business class in late 2017. She isn't a huge techie person, so she asked me to help. The project she had to do for her class was to build a resume, but in an HTML format. She was frustrated and didn't understand anything that was happening, so with my tech background and love for [anything] technology, I jumped in and assisted her in making the HTML document. Without any prior knowledge in coding, I managed to finish a VERY basic HTML document that had her basic resume information on it in ~3 hours.<hr>It was then that I decided to switch from being a potential PA student to a coding novice (hope to be a master soon!). My biggest interest is back-end language and server side development, but I enjoy learning the full spectrum. I feel like it never hurts knowing a little about everything!
             </div>
 <!--Portrait Card with my picture-->
-            <div class="card no-gutters text-white bg-dark col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <div data-aos="fade-left"
+            data-aos-duration="1200"
+            data-aos-easing="ease-in-out-back"
+            data-aos-mirror="true"
+            data-aos-once="true" class="card no-gutters text-white bg-dark col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
               <a href="https://twitter.com/CoreyFunction" target="_blank">
               <img id="portrait" src="img/portrait.jpg" class="card-img-top" alt="portrait"></a>
               <div class="card-body">
@@ -67,7 +71,11 @@
           <h1 class="title title2">Skillset/Background</h1>
 <!--HTML Background Modal Button-->
           <div class="row text-center">
-            <div id=modal1 class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6">
+            <div data-aos="flip-up"
+            data-aos-duration="1200"
+            data-aos-easing="ease-in-out-back"
+            data-aos-mirror="true"
+            data-aos-once="true" id=modal1 class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6">
               <a class="modal1_btn" href="#" data-toggle="modal" data-target="#html_modal"><img src="img/html_icon.png" alt="html example" class="modal_image">
               </a>
             </div>
@@ -90,7 +98,11 @@
               </div>
             </div>
 <!--CSS Background Modal Button-->
-            <div id=modal2 class="modal2 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6">
+            <div data-aos="flip-down"
+            data-aos-duration="1400"
+            data-aos-easing="ease-in-out-back"
+            data-aos-mirror="true"
+            data-aos-once="true" id=modal2 class="modal2 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6">
               <a class="modal2_btn" href="#" type="button" data-toggle="modal" data-target="#css_modal"><img src="img/css_icon.png" alt="css example" class="modal_image">
               </a>
             </div>
@@ -113,7 +125,12 @@
               </div>
             </div>
 <!--Bootstrap Background Modal Button-->
-            <div id=modal3 class="modal3 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6">
+            <div data-aos="flip-right"
+            data-aos-duration="1600"
+            data-aos-easing="ease-in-out-back"
+            data-aos-mirror="true"
+            data-aos-once="true"
+            id=modal3 class="modal3 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6">
               <a class="modal3_btn" href="#" data-toggle="modal" data-target="#bootstrap_modal"><img src="img/bootstrap_icon.png" alt="bootstrap example" class="modal_image">
               </a>
             </div>
@@ -136,7 +153,12 @@
               </div>
             </div>
 <!--Javascript Background Modal Button-->
-            <div id=modal4 class="modal4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6">
+            <div data-aos="flip-left"
+            data-aos-duration="1800"
+            data-aos-easing="ease-in-out-back"
+            data-aos-mirror="true"
+            data-aos-once="true"
+            id=modal4 class="modal4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6">
               <a class="modal4_btn" href="#" data-toggle="modal" data-target="#javascript_modal"><img src="img/javascript_icon.png" alt="javascript example" class="modal_image">
               </a>
             </div>
@@ -151,6 +173,34 @@
                     </button>
                   </div>
                   <div class="modal-body">This will list my background with JavaScript.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+<!--Coming Soon Modal Button-->
+            <div data-aos="flip-down"
+            data-aos-duration="2000"
+            data-aos-easing="ease-in-out-back"
+            data-aos-mirror="true"
+            data-aos-once="true"
+            id=modal5 class="modal5 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6">
+              <a class="modal5_btn" href="#" data-toggle="modal" data-target="#coming_modal"><img src="img/soon_icon.png" alt="coming example" class="modal_image">
+              </a>
+            </div>
+<!--Coming Soon Modal-->
+            <div class="modal fade" id="coming_modal" tabindex="-1" role="dialog" aria-labelledby="Coming Soon" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="Coming_Soon">In The Near Future</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">Coming Soon...
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn" data-dismiss="modal">Close</button>
