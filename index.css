@@ -739,7 +739,7 @@ h1.title2 {
 }
 
 #modal1, #modal2, #modal3, #modal4 {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   opacity: 0.8;
 }
 
@@ -754,9 +754,34 @@ a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn {
   appearance: none !important;
 }
 
-.modal_image, .modal_image {
-  border: 6px solid rgba(190, 144, 99, 1.0);
-  border-radius: 5px;
+.modal_image:hover {
+  -webkit-animation: shadow 0.3s ease-in-out both;
+	animation: shadow 0.3s ease-in-out both;
+}
+
+@-webkit-keyframes shadow {
+  0% {
+    box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+    -webkit-transform: translateX(0) translateY(0);
+            transform: translateX(0) translateY(0);
+  }
+  100% {
+    box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
+    -webkit-transform: translateX(-8px) translateY(8px);
+            transform: translateX(-8px) translateY(8px);
+  }
+}
+@keyframes shadow {
+  0% {
+    box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+    -webkit-transform: translateX(0) translateY(0);
+            transform: translateX(0) translateY(0);
+  }
+  100% {
+    box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
+    -webkit-transform: translateX(-8px) translateY(8px);
+            transform: translateX(-8px) translateY(8px);
+  }
 }
 
 @media screen and (max-width: 3000px) {
