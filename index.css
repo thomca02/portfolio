@@ -209,6 +209,20 @@ div hr {
   background-color: rgba(190, 144, 99, 0.8);
 }
 
+.description1 {
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.description3 {
+  margin-top: 30px;
+  letter-spacing: 1px;
+}
+
+.description2 {
+  letter-spacing: 5px;
+}
+
 div.card {
   padding: 0;
   color: rgba(164, 151, 142, 1.0) !important;
@@ -273,7 +287,7 @@ a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn, a.modal5_btn {
 }
 
 @media screen and (max-width: 3000px) {
-  .description {
+  .description1, .description2, .description3 {
     font-size: 17px;
   }
   div.card {
@@ -289,7 +303,7 @@ a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn, a.modal5_btn {
 }
 
 @media screen and (max-width: 1200px) {
-  .description {
+  .description1, .description2, .description3 {
     font-size: 90%;
   }
   div.card {
@@ -315,7 +329,7 @@ a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn, a.modal5_btn {
 }
 
 @media screen and (max-width: 950px) {
-  .description {
+  .description1, .description2, .description3 {
     font-size: 85%;
     margin-bottom: 20px;
   }
@@ -343,7 +357,7 @@ a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn, a.modal5_btn {
 }
 
 @media screen and (max-width: 650px) {
-  .description {
+  .description1, .description2, .description3 {
     font-size: 80%;
     margin-bottom: 20px;
   }
@@ -368,10 +382,13 @@ a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn, a.modal5_btn {
     height: auto;
     width: 160px;
   }
+  .parallax {
+  background-image: url("img/parallax-sm.jpg");
+  }
 }
 
 @media screen and (max-width: 480px) {
-  .description {
+  .description1, .description2, .description3 {
     font-size: 75%;
     margin-bottom: 20px;
   }
@@ -395,5 +412,8 @@ a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn, a.modal5_btn {
   .modal_image {
     height: auto;
     width: 125px;
+  }
+  .parallax {
+  background-image: url("img/parallax-sm.jpg");
   }
 }

@@ -202,9 +202,6 @@ h1.title {
   div.jumbotron {
     margin: 0px 65px 65px 65px;
   }
-  .parallax {
-    height: 100% !important;
-  }
   h1.title {
     font-size: 150%;
   }
@@ -220,9 +217,6 @@ h1.title {
   div.jumbotron {
     margin: 0px 50px 50px 50px;
   }
-  .parallax {
-    height: 100% !important;
-  }
   h1.title {
     font-size: 140%;
   }
@@ -232,14 +226,14 @@ h1.title {
   .small_caption {
     font-size: 55px;
   }
+  .parallax {
+  background-image: url("img/parallax-sm.jpg");
+  }
 }
 
 @media screen and (max-width: 480px) {
   div.jumbotron {
     margin: 0px 30px 30px 30px;
-  }
-  .parallax {
-    height: 100% !important;
   }
   h1.title {
     font-size: 130%;
@@ -249,5 +243,8 @@ h1.title {
   }
   .small_caption {
     font-size: 40px;
+  }
+  .parallax {
+  background-image: url("img/parallax-sm.jpg");
   }
 }

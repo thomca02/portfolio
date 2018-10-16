@@ -223,9 +223,6 @@ a.btn-primary:focus, a.btn-primary:active {
   div.jumbotron {
     margin: 0px 50px 50px 50px;
   }
-  .parallax {
-    height: 100% !important;
-  }
   .small_caption {
     font-size: 65px;
   }
@@ -244,7 +241,7 @@ a.btn-primary:focus, a.btn-primary:active {
     padding: 60px;
   }
   .parallax {
-    height: 100% !important;
+    background-image: url("img/parallax-sm.jpg");
   }
   .small_caption {
     font-size: 55px;
@@ -264,7 +261,7 @@ a.btn-primary:focus, a.btn-primary:active {
     padding: 40px;
   }
   .parallax {
-    height: 100% !important;
+    background-image: url("img/parallax-sm.jpg");
   }
   .small_caption {
     font-size: 40px;
