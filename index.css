@@ -217,7 +217,7 @@ a.navbar-brand:hover {
 
 div.jumbotron {
   margin: 0px 100px 100px 100px;
-  background-color: rgba(4, 12, 14, 0.70);
+  background-color: rgba(4, 12, 14, 0.9);
   opacity: 1.1;
   color: rgba(164, 151, 142, 1.0);
 }
@@ -343,6 +343,34 @@ a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn, a.modal5_btn, a.modal6_b
   appearance: none !important;
 }
 
+footer {
+  margin-top: 100px;
+  background-color: rgba(4, 12, 14, 0.95);
+  padding: 30px 50px 1px 50px;
+}
+
+#thanks {
+  margin-top: 20px;
+}
+
+#footer1, #footer2, #footer3 {
+  margin-bottom: 30px;
+}
+
+#social1:hover, #social2:hover, #social3:hover {
+  opacity: 0.8;
+}
+
+#interest1, #interest2, #interest3, #interest4, #interest5, #footnav1, #footnav2, #footnav3,
+#footnav4 {
+  opacity: 0.7;
+}
+
+#interest1:hover, #interest2:hover, #interest3:hover, #interest4:hover, #interest5:hover, 
+#footnav1:hover, #footnav2:hover, #footnav3:hover, #footnav4:hover {
+  text-decoration: none !important;
+}
+
 @media screen and (max-width: 3000px) {
   .description1, .description2, .description3 {
     font-size: 17px;
@@ -356,6 +384,10 @@ a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn, a.modal5_btn, a.modal6_b
   }
   h1.title, h1.title2 {
     font-size: 190%;
+  }
+  #socimg1, #socimg2, #socimg3 {
+    height: 70px;
+    width: 70px;
   }
 }
 
@@ -383,6 +415,10 @@ a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn, a.modal5_btn, a.modal6_b
   .modal_image {
     height: auto;
     width: 240px;
+  }
+  #socimg1, #socimg2, #socimg3 {
+    height: 65px;
+    width: 65px;
   }
 }
 
@@ -415,6 +451,10 @@ a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn, a.modal5_btn, a.modal6_b
   .modal_image {
     height: auto;
     width: 170px;
+  }
+  #socimg1, #socimg2, #socimg3 {
+    height: 60px;
+    width: 60px;
   }
 }
 
@@ -450,8 +490,11 @@ a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn, a.modal5_btn, a.modal6_b
   }
   .parallax {
   min-height: 800px;
-  overflow: scroll;
   background-image: url("img/parallax-sm.jpg") !important;
+  }
+  #socimg1, #socimg2, #socimg3 {
+    height: 55px;
+    width: 55px;
   }
 }
 
@@ -485,6 +528,9 @@ a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn, a.modal5_btn, a.modal6_b
   .parallax {
   background-image: url("img/parallax-sm.jpg") !important;
   min-height: 600px;
-  overflow: scroll !important;
+  }
+  #socimg1, #socimg2, #socimg3 {
+    height: 50px;
+    width: 50px;
   }
 }

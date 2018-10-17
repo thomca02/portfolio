@@ -144,7 +144,7 @@ a.navbar-brand:hover {
 div.jumbotron {
   margin: 0px 100px 100px 100px;
   padding: 3em;
-  background-color: rgba(4, 12, 14, 0.70);
+  background-color: rgba(4, 12, 14, 0.90);
   opacity: 1.1;
   color: rgba(164, 151, 142, 1.0);
 }
@@ -187,6 +187,34 @@ h1.title {
   margin-top: 3em;
 }
 
+footer {
+  margin-top: 100px;
+  background-color: rgba(4, 12, 14, 0.95);
+  padding: 30px 50px 1px 50px;
+}
+
+#thanks {
+  margin-top: 20px;
+}
+
+#footer1, #footer2, #footer3 {
+  margin-bottom: 30px;
+}
+
+#social1:hover, #social2:hover, #social3:hover {
+  opacity: 0.8;
+}
+
+#interest1, #interest2, #interest3, #interest4, #interest5, #footnav1, #footnav2, #footnav3,
+#footnav4 {
+  opacity: 0.7;
+}
+
+#interest1:hover, #interest2:hover, #interest3:hover, #interest4:hover, #interest5:hover, 
+#footnav1:hover, #footnav2:hover, #footnav3:hover, #footnav4:hover {
+  text-decoration: none !important;
+}
+
 @media screen and (max-width: 3000px) {
   div.jumbotron {
     margin: 0px 100px 100px 100px;
@@ -196,6 +224,10 @@ h1.title {
   }
   .description {
     font-size: 190%;
+  }
+   #socimg1, #socimg2, #socimg3 {
+    height: 70px;
+    width: 70px;
   }
 }
 
@@ -212,6 +244,10 @@ h1.title {
   .small_caption {
     font-size: 70px;
   }
+  #socimg1, #socimg2, #socimg3 {
+    height: 65px;
+    width: 65px;
+  }
 }
 
 @media screen and (max-width: 950px) {
@@ -226,6 +262,10 @@ h1.title {
   }
   .small_caption {
     font-size: 65px;
+  }
+  #socimg1, #socimg2, #socimg3 {
+    height: 60px;
+    width: 60px;
   }
 }
 
@@ -248,6 +288,10 @@ h1.title {
     overflow: scroll;
     background-image: url("img/parallax-sm.jpg") !important;
   }
+  #socimg1, #socimg2, #socimg3 {
+    height: 55px;
+    width: 55px;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -268,5 +312,9 @@ h1.title {
     min-height: 600px;
     overflow: scroll;
     background-image: url("img/parallax-sm.jpg") !important;
+  }
+  #socimg1, #socimg2, #socimg3 {
+    height: 50px;
+    width: 50px;
   }
 }
