@@ -1,3 +1,19 @@
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url(img/background.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {
 margin: 0;
 padding: 0;
@@ -211,22 +227,24 @@ div hr {
 
 .description1 {
   margin-bottom: 30px;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
 }
 
 .description3 {
   margin-top: 30px;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
 }
 
 .description2 {
-  letter-spacing: 5px;
+  letter-spacing: 3px;
+  margin-right: 50px;
 }
 
 div.card {
   padding: 0;
   color: rgba(164, 151, 142, 1.0) !important;
   background-color: rgba(19, 34, 38, 1.0) !important;
+  border-radius: 8px;
 }
 
 div.card-title {
@@ -236,6 +254,7 @@ div.card-title {
 
 #portrait {
   width: 100%;
+  border-radius: 5px;
 }
 
 #portrait:hover {
@@ -270,16 +289,48 @@ h1.title2 {
   margin-bottom: 40px;
 }
 
-#modal1, #modal2, #modal3, #modal4, #modal5 {
+#modal1, #modal2, #modal3, #modal4, #modal5, #modal6 {
   margin-bottom: 20px;
-  opacity: 1.0;
+  opacity: 0.9;
 }
 
-#modal1:hover, #modal2:hover, #modal3:hover, #modal4:hover, #modal5:hover {
-  opacity: 0.8;
+#modal1:hover, #modal2:hover, #modal3:hover, #modal4:hover, #modal5:hover, #modal6:hover{
+  opacity: 0.7;
 }
 
-a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn, a.modal5_btn {
+div.modal-content {
+  background-color: rgba(19, 34, 38, 0.95);
+  color: rgba(164, 151, 142, 1.0);
+}
+
+img.modal_image {
+  border-radius: 8px;
+}
+
+div button.close {
+  background-color: rgba(190, 144, 99, 1.0);
+  border-color: rgba(190, 144, 99, 1.0);
+  border-radius: 8px;
+}
+
+div button.btn {
+  background-color: rgba(190, 144, 99, 1.0);
+  border-color: rgba(190, 144, 99, 1.0);
+}
+
+div button.btn:focus, div button.btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: rgba(164, 151, 142, 1.0) !important;
+  border-color: rgba(164, 151, 142, 1.0) !important;
+}
+
+div button.btn:hover {
+  background-color: rgba(164, 151, 142, 1.0);
+  border-color: rgba(164, 151, 142, 1.0);
+}
+
+a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn, a.modal5_btn, a.modal6_btn {
   -webkit-appearance: none !important;
   -o-appearance: none !important;
   -moz-appearance: none !important;
@@ -305,6 +356,7 @@ a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn, a.modal5_btn {
 @media screen and (max-width: 1200px) {
   .description1, .description2, .description3 {
     font-size: 90%;
+    letter-spacing: 2px;
   }
   div.card {
     font-size: 90%;
@@ -332,6 +384,10 @@ a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn, a.modal5_btn {
   .description1, .description2, .description3 {
     font-size: 85%;
     margin-bottom: 20px;
+    letter-spacing: 1.5px;
+  }
+  .description2 {
+    margin-right: 10px;
   }
   div.card {
     font-size: 85%;
@@ -360,6 +416,10 @@ a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn, a.modal5_btn {
   .description1, .description2, .description3 {
     font-size: 80%;
     margin-bottom: 20px;
+    letter-spacing: 1px;
+  }
+  .description2 {
+    margin-right: 10px;
   }
   div.card {
     font-size: 80%;
@@ -383,7 +443,7 @@ a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn, a.modal5_btn {
     width: 160px;
   }
   .parallax {
-  background-image: url("img/parallax-sm.jpg");
+  background-position: center !important;
   }
 }
 
@@ -391,6 +451,7 @@ a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn, a.modal5_btn {
   .description1, .description2, .description3 {
     font-size: 75%;
     margin-bottom: 20px;
+    letter-spacing: 0.5px;
   }
   div.card {
     font-size: 75%;
@@ -412,8 +473,5 @@ a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn, a.modal5_btn {
   .modal_image {
     height: auto;
     width: 125px;
-  }
-  .parallax {
-  background-image: url("img/parallax-sm.jpg");
   }
 }
