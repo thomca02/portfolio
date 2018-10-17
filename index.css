@@ -157,6 +157,12 @@ a.navbar-brand:hover {
   animation-delay: 1.7s;
 }
 
+.pop-up3 {
+  -webkit-animation: pop-up2 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: pop-up2 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation-delay: 2.0s;
+}
+
 @-webkit-keyframes pop-up2 {
   0% {
     -webkit-transform: translateY(0);
@@ -443,7 +449,8 @@ a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn, a.modal5_btn, a.modal6_b
     width: 160px;
   }
   .parallax {
-  background-position: center !important;
+  min-height: 650px;
+
   }
 }
 
@@ -473,5 +480,8 @@ a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn, a.modal5_btn, a.modal6_b
   .modal_image {
     height: auto;
     width: 125px;
+  }
+  .parallax {
+  min-height: 480px;
   }
 }
