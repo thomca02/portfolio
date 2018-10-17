@@ -249,15 +249,12 @@ a.btn-primary:focus, a.btn-primary:active {
 
 @media screen and (max-width: 650px) {
   #grocery_list, #gradient_background {
-    font-size: 75%;
-    height: 75%;
+    font-size: 90%;
+    height: 90%;
   }
   div.jumbotron {
-    margin: 0px 30px 30px 30px;
-    padding: 60px;
-  }
-  .parallax {
-    background-image: url("img/parallax-sm.jpg");
+    margin: 0px 20px 20px 20px;
+    padding: 40px;
   }
   .small_caption {
     font-size: 55px;
@@ -265,24 +262,31 @@ a.btn-primary:focus, a.btn-primary:active {
   h1.title {
     font-size: 140%;
   }
+  .parallax {
+    min-height: 800px;
+    overflow: scroll;
+    background-image: url("img/parallax-sm.jpg") !important;
+  }
 }
 
 @media screen and (max-width: 480px) {
   #grocery_list, #gradient_background {
-    font-size: 70%;
-    height: 70%;
+    font-size: 80%;
+    height: 80%;
   }
   div.jumbotron {
-    margin: 0px 10px 10px 10px;
-    padding: 40px;
-  }
-  .parallax {
-    background-image: url("img/parallax-sm.jpg");
+    margin: 0px 20px 20px 20px;
+    padding: 25px;
   }
   .small_caption {
     font-size: 40px;
   }
   h1.title {
     font-size: 130%;
+  }
+  .parallax {
+    min-height: 600px;
+    overflow: scroll;
+    background-image: url("img/parallax-sm.jpg") !important;
   }
 }

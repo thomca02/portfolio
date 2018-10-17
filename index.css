@@ -432,8 +432,8 @@ a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn, a.modal5_btn, a.modal6_b
     height: 40%;
   }
   div.jumbotron {
-    margin: 0px 30px 30px 30px;
-    padding: 60px;
+    margin: 0px 60px 60px 60px;
+    padding: 30px;
   }
   .caption {
     font-size: 55px;
@@ -446,11 +446,12 @@ a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn, a.modal5_btn, a.modal6_b
   }
   .modal_image {
     height: auto;
-    width: 160px;
+    width: 190px;
   }
   .parallax {
-  min-height: 650px;
-
+  min-height: 800px;
+  overflow: scroll;
+  background-image: url("img/parallax-sm.jpg") !important;
   }
 }
 
@@ -465,8 +466,8 @@ a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn, a.modal5_btn, a.modal6_b
     height: 30%;
   }
   div.jumbotron {
-    margin: 0px 10px 10px 10px;
-    padding: 40px;
+    margin: 0px 20px 20px 20px;
+    padding: 20px;
   }
   .caption {
     font-size: 40px;
@@ -479,9 +480,11 @@ a.modal1_btn, a.modal2_btn, a.modal3_btn, a.modal4_btn, a.modal5_btn, a.modal6_b
   }
   .modal_image {
     height: auto;
-    width: 125px;
+    width: 175px;
   }
   .parallax {
-  min-height: 480px;
+  background-image: url("img/parallax-sm.jpg") !important;
+  min-height: 600px;
+  overflow: scroll !important;
   }
 }
