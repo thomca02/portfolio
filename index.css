@@ -78,7 +78,7 @@ a.navbar-brand:hover {
 .caption {
   display: flex;
   justify-content: center;
-  padding-top: 5em;
+  padding-top: 3.5em;
   opacity: 1.0;
   color: rgba(255, 209, 154, 1.0);
   font-size: 80px;
