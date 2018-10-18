@@ -203,7 +203,7 @@ footer h3 {
   text-decoration: none !important;
 }
 
-@media screen and (max-width: 3000px) {
+@media only screen and (max-width: 3000px) {
   div.jumbotron {
     margin: 0px 100px 100px 100px;
   }
@@ -219,7 +219,7 @@ footer h3 {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   div.jumbotron {
     margin: 0px 75px 75px 75px;
   }
@@ -239,7 +239,7 @@ footer h3 {
   }
 }
 
-@media screen and (max-width: 950px) {
+@media only screen and (max-width: 950px) {
   div.jumbotron {
     margin: 0px 65px 65px 65px;
   }
@@ -259,7 +259,7 @@ footer h3 {
   }
 }
 
-@media screen and (max-width: 650px) {
+@media only screen and (max-width: 650px) {
   div.jumbotron {
     margin: 0px 30px 30px 30px;
     padding: 15px;
@@ -287,7 +287,7 @@ footer h3 {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
   div.jumbotron {
     margin: 0px 30px 30px 30px;
     padding: 15px;

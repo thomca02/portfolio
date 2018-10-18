@@ -219,7 +219,7 @@ footer h3 {
   text-decoration: none !important;
 }
 
-@media screen and (max-width: 3000px) {
+@media only screen and (max-width: 3000px) {
   #grocery_list, #gradient_background {
     font-size: 100%;
     height: 100%;
@@ -236,7 +236,7 @@ footer h3 {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   #grocery_list, #gradient_background {
     font-size: 90%;
     height: 90%;
@@ -257,7 +257,7 @@ footer h3 {
   }
 }
 
-@media screen and (max-width: 950px) {
+@media only screen and (max-width: 950px) {
   #grocery_list, #gradient_background {
     font-size: 80%;
     height: 80%;
@@ -278,7 +278,7 @@ footer h3 {
   }
 }
 
-@media screen and (max-width: 650px) {
+@media only screen and (max-width: 650px) {
   #grocery_list, #gradient_background {
     font-size: 90%;
     height: 90%;
@@ -308,7 +308,7 @@ footer h3 {
 
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
   #grocery_list, #gradient_background {
     font-size: 80%;
     height: 80%;

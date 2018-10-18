@@ -359,7 +359,7 @@ footer h3 {
   color: rgba(255, 209, 154, 0.7);
 }
 
-@media screen and (max-width: 3000px) {
+@media only screen and (max-width: 3000px) {
   .description1, .description2, .description3 {
     font-size: 17px;
   }
@@ -379,7 +379,7 @@ footer h3 {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   .description1, .description2, .description3 {
     font-size: 90%;
     letter-spacing: 2px;
@@ -411,7 +411,7 @@ footer h3 {
   }
 }
 
-@media screen and (max-width: 950px) {
+@media only screen and (max-width: 950px) {
   .description1, .description2, .description3 {
     font-size: 85%;
     margin-bottom: 20px;
@@ -448,7 +448,7 @@ footer h3 {
   }
 }
 
-@media screen and (max-width: 650px) {
+@media only screen and (max-width: 650px) {
   .description1, .description2, .description3 {
     font-size: 80%;
     margin-bottom: 20px;
@@ -481,8 +481,17 @@ footer h3 {
   }
   .parallax {
     min-height: 800px;
-    background-image: url("img/parallax-sm.jpg");
+    background-image: url("img/parallax-sm.jpg") no-repeat center center fixed;
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
   }
+  
   #socimg1, #socimg2, #socimg3 {
     height: 55px;
     width: 55px;
@@ -492,7 +501,7 @@ footer h3 {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
   .description1, .description2, .description3 {
     font-size: 75%;
     margin-bottom: 20px;
@@ -521,7 +530,15 @@ footer h3 {
     width: 175px;
   }
   .parallax {
-    background-image: url("img/parallax-sm.jpg");
+    background-image: url("img/parallax-sm.jpg") no-repeat center center fixed;
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
     min-height: 700px;
   }
   #socimg1, #socimg2, #socimg3 {
