@@ -166,9 +166,9 @@ h1.title {
 }
 
 .description {
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
-  margin-top: 3em;
+  margin-top: 2.7em;
 }
 
 footer {
@@ -198,7 +198,7 @@ footer h3 {
   opacity: 0.7;
 }
 
-#interest1:hover, #interest2:hover, #interest3:hover, #interest4:hover, #interest5:hover, 
+#interest1:hover, #interest2:hover, #interest3:hover, #interest4:hover, #interest5:hover,
 #footnav1:hover, #footnav2:hover, #footnav3:hover, #footnav4:hover {
   text-decoration: none !important;
 }
@@ -211,7 +211,7 @@ footer h3 {
     font-size: 190%;
   }
   .description {
-    font-size: 190%;
+    font-size: 170%;
   }
    #socimg1, #socimg2, #socimg3 {
     height: 70px;

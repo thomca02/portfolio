@@ -37,11 +37,11 @@ a.navbar-brand {
 }
 
 a.navbar-brand:hover {
-  -webkit-transform: scale(1.20);
-  -ms-transform: scale(1.20);
-  -o-transform: scale(1.20);
-  transform: scale(1.20);
-  transition: all 0.5s ease-in-out;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
 }
 
 .parallax {
