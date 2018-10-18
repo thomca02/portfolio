@@ -62,7 +62,7 @@ a.navbar-brand:hover {
 .small_caption {
   display: flex;
   justify-content: center;
-  padding-top: 4.8em;
+  padding-top: 4.6em;
   font-size: 80px;
   color: rgba(255, 209, 154, 1.0);
 }
@@ -227,6 +227,7 @@ footer {
   }
   .small_caption {
     font-size: 70px;
+    padding-top: 4.8em;
   }
   #socimg1, #socimg2, #socimg3 {
     height: 65px;
@@ -246,6 +247,7 @@ footer {
   }
   .small_caption {
     font-size: 65px;
+    padding-top: 4.9em;
   }
   #socimg1, #socimg2, #socimg3 {
     height: 60px;
@@ -266,6 +268,7 @@ footer {
   }
   .small_caption {
     font-size: 55px;
+    padding-top: 5.1em;
   }
   .parallax {
     min-height: 800px;
@@ -294,6 +297,7 @@ footer {
   }
   .small_caption {
     font-size: 40px;
+    padding-top: 5.3em;
   }
   .parallax {
     min-height: 600px;

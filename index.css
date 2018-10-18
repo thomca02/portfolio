@@ -425,6 +425,7 @@ footer {
   }
   .caption {
     font-size: 65px;
+    padding-top: 4.3em;
   }
   h1.title, h1.title2 {
     font-size: 150%;
@@ -461,6 +462,7 @@ footer {
   }
   .caption {
     font-size: 55px;
+    padding-top: 4.5em;
   }
   h1.title, h1.title2 {
     font-size: 140%;
@@ -507,6 +509,7 @@ footer {
   }
   .small_caption {
     font-size: 25px;
+    padding-top: 4.8em;
   }
   .modal_image {
     height: auto;
