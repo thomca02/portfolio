@@ -78,7 +78,7 @@ a.navbar-brand:hover {
 .small_caption {
   display: flex;
   justify-content: center;
-  padding-top: 4.6em;
+  padding-top: 4.8em;
   font-size: 80px;
   color: rgba(255, 209, 154, 1.0);
 }
@@ -194,7 +194,7 @@ footer {
 }
 
 #thanks {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 #footer1, #footer2, #footer3 {

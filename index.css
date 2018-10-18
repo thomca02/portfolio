@@ -297,15 +297,15 @@ h1.title2 {
 
 #modal1, #modal2, #modal3, #modal4, #modal5, #modal6 {
   margin-bottom: 20px;
-  opacity: 0.9;
+  opacity: 1.0;
 }
 
 #modal1:hover, #modal2:hover, #modal3:hover, #modal4:hover, #modal5:hover, #modal6:hover{
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 div.modal-content {
-  background-color: rgba(19, 34, 38, 0.95);
+  background-color: rgba(19, 34, 38, 1.0);
   color: rgba(164, 151, 142, 1.0);
 }
 
@@ -350,7 +350,7 @@ footer {
 }
 
 #thanks {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 #footer1, #footer2, #footer3 {
