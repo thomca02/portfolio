@@ -271,11 +271,11 @@ footer h3 {
     font-size: 130%;
   }
   .small_caption {
-    font-size: 55px;
-    padding-top: 6.0em;
+    font-size: 50px;
+    padding-top: 6.5em;
   }
   .parallax {
-    min-height: 800px;
+    min-height: 700px;
     background-image: url("img/parallax-sm.jpg");
   }
   #socimg1, #socimg2, #socimg3 {
@@ -299,11 +299,11 @@ footer h3 {
     font-size: 130%;
   }
   .small_caption {
-    font-size: 40px;
-    padding-top: 7.5em;
+    font-size: 35px;
+    padding-top: 8.0em;
   }
   .parallax {
-    min-height: 700px;
+    min-height: 600px;
     background-image: url("img/parallax-sm.jpg");
   }
   #socimg1, #socimg2, #socimg3 {

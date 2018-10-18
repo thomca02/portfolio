@@ -66,7 +66,6 @@ a.navbar-brand:hover {
   opacity: 1.0;
   color: rgba(255, 209, 154, 1.0);
   font-size: 80px;
-  margin: 0 auto;
 }
 
 .pop-up1 {
@@ -462,8 +461,8 @@ footer h3 {
     padding: 50px;
   }
   .caption {
-    font-size: 55px;
-    padding-top: 5.0em;
+    font-size: 50px;
+    padding-top: 5.5em;
   }
   h1.title, h1.title2 {
     font-size: 140%;
@@ -476,7 +475,7 @@ footer h3 {
     width: 190px;
   }
   .parallax {
-    min-height: 800px;
+    min-height: 700px;
     background-image: url("img/parallax-sm.jpg");
   }
 
@@ -503,14 +502,14 @@ footer h3 {
     padding: 20px;
   }
   .caption {
-    font-size: 40px;
-    padding-top: 6.7em;
+    font-size: 30px;
+    padding-top: 8.0em;
   }
   h1.title, h1.title2 {
     font-size: 130%;
   }
   .small_caption {
-    font-size: 25px;
+    font-size: 20px;
   }
   .modal_image {
     height: auto;
@@ -518,7 +517,7 @@ footer h3 {
   }
   .parallax {
     background-image: url("img/parallax-sm.jpg");
-    min-height: 700px;
+    min-height: 600px;
   }
   #socimg1, #socimg2, #socimg3 {
     height: 50px;
