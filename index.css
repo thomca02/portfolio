@@ -217,24 +217,26 @@ div hr {
 
 .description1 {
   margin-bottom: 30px;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
 }
 
 .description3 {
   margin-top: 30px;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
 }
 
 .description2 {
-  letter-spacing: 3px;
-  margin-right: 50px;
+  letter-spacing: 1px;
+  margin-right: 55px;
 }
 
-div.card {
+#photo_card {
   padding: 0;
   color: rgba(164, 151, 142, 1.0) !important;
   background-color: rgba(19, 34, 38, 1.0) !important;
   border-radius: 8px;
+  max-height: 650px;
+  max-width: 400px;
 }
 
 div.card-title {
@@ -350,7 +352,7 @@ footer {
   opacity: 0.7;
 }
 
-#interest1:hover, #interest2:hover, #interest3:hover, #interest4:hover, #interest5:hover, 
+#interest1:hover, #interest2:hover, #interest3:hover, #interest4:hover, #interest5:hover,
 #footnav1:hover, #footnav2:hover, #footnav3:hover, #footnav4:hover {
   text-decoration: none !important;
 }
@@ -368,7 +370,7 @@ footer h3 {
     height: 100%;
   }
   div.jumbotron {
-    margin: 0px 100px 100px 100px;
+    margin: 0px 75px 75px 75px;
   }
   h1.title, h1.title2 {
     font-size: 190%;
@@ -382,14 +384,13 @@ footer h3 {
 @media only screen and (max-width: 1200px) {
   .description1, .description2, .description3 {
     font-size: 90%;
-    letter-spacing: 2px;
   }
   div.card {
     font-size: 90%;
-    height: 90%;
+    height: 100%;
   }
   div.jumbotron {
-    margin: 0px 75px 75px 75px;
+    margin: 0px 50px 50px 50px;
   }
   .caption {
     font-size: 70px;
@@ -411,22 +412,22 @@ footer h3 {
   }
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 975px) {
   .description1, .description2, .description3 {
     font-size: 85%;
     margin-bottom: 20px;
-    letter-spacing: 1.5px;
   }
   .description2 {
-    margin-right: 10px;
+    margin-right: 20px;
   }
   div.card {
     font-size: 85%;
-    height: 55%;
+    max-width: 600px !important;
+    max-height: 700px !important;
   }
   div.jumbotron {
     margin: 0px 80px 80px 80px;
-    padding: 60px;
+    padding: 50px;
   }
   .caption {
     font-size: 65px;
@@ -452,18 +453,13 @@ footer h3 {
   .description1, .description2, .description3 {
     font-size: 80%;
     margin-bottom: 20px;
-    letter-spacing: 1px;
-  }
-  .description2 {
-    margin-right: 10px;
   }
   div.card {
     font-size: 80%;
-    height: 40%;
   }
   div.jumbotron {
-    margin: 0px 60px 60px 60px;
-    padding: 30px;
+    margin: 0px 40px 40px 40px;
+    padding: 50px;
   }
   .caption {
     font-size: 55px;
@@ -482,16 +478,16 @@ footer h3 {
   .parallax {
     min-height: 800px;
     background-image: url("img/parallax-sm.jpg") no-repeat center center fixed;
-    -webkit-background-size: 100%; 
-    -moz-background-size: 100%; 
-    -o-background-size: 100%; 
-    background-size: 100%; 
-    -webkit-background-size: cover; 
-    -moz-background-size: cover; 
-    -o-background-size: cover; 
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
   }
-  
+
   #socimg1, #socimg2, #socimg3 {
     height: 55px;
     width: 55px;
@@ -509,7 +505,6 @@ footer h3 {
   }
   div.card {
     font-size: 75%;
-    height: 30%;
   }
   div.jumbotron {
     margin: 0px 20px 20px 20px;
@@ -531,13 +526,13 @@ footer h3 {
   }
   .parallax {
     background-image: url("img/parallax-sm.jpg") no-repeat center center fixed;
-    -webkit-background-size: 100%; 
-    -moz-background-size: 100%; 
-    -o-background-size: 100%; 
-    background-size: 100%; 
-    -webkit-background-size: cover; 
-    -moz-background-size: cover; 
-    -o-background-size: cover; 
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     min-height: 700px;
   }
