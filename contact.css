@@ -239,7 +239,7 @@ footer h3 {
   }
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 975px) {
   div.jumbotron {
     margin: 0px 65px 65px 65px;
   }

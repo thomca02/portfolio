@@ -265,7 +265,7 @@ footer h3 {
   }
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 975px) {
   #grocery_list, #gradient_background {
     font-size: 75%;
     height: 80%;
