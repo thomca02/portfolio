@@ -193,6 +193,10 @@ footer {
   padding: 30px 50px 1px 50px;
 }
 
+footer h3 {
+  color: rgba(255, 209, 154, 0.7);
+}
+
 #thanks {
   margin-top: 10px;
 }

@@ -355,6 +355,10 @@ footer {
   text-decoration: none !important;
 }
 
+footer h3 {
+  color: rgba(255, 209, 154, 0.7);
+}
+
 @media screen and (max-width: 3000px) {
   .description1, .description2, .description3 {
     font-size: 17px;
